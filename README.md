@@ -1,8 +1,8 @@
 # [Cool Kitten](http://jalxob.com/cool-kitten/)
 
-Parrallax Scrolling responsive frame work - 1.0
+Parrallax scrolling responsive framework - 1.0
 
-Author: [Jalxob](www.jalxob.com)
+Author: [Jalxob](http://www.jalxob.com)
 Release Date: February 2013.
 
 ## Resources
@@ -14,7 +14,7 @@ Release Date: February 2013.
 
 ## Questions & Contact
 
-This is my first framework so if you see any issue please let me know it.
+This is my first framework so if you see any issue please [let me know it](mailto:jalxob@gmail.com).
 
 Website: www.jalxob.com/cool-kitten
 Author's website: www.jalxob.com
