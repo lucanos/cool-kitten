@@ -2,14 +2,14 @@
 
 Parrallax Scrolling responsive frame work - 1.0
 
-Author: Jalxob
+Author: [Jalxob](www.jalxob.com)
 Release Date: February 2013.
 
 ## Resources
 
 * [normalize.css](http://necolas.github.com/normalize.css/)
 * [jQuery Easing Plugin](http://gsgd.co.uk/sandbox/jquery/easing/)
-* [JQuery Waypoints](http://imakewebthings.com/jquery-waypoints/)
+* [jQuery Waypoints](http://imakewebthings.com/jquery-waypoints/)
 * [Stellar.js](http://markdalgleish.com/projects/stellar.js/)
 
 ## Questions & Contact
