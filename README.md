@@ -1,4 +1,4 @@
-# [![Cool Kitten](http://github.com/jalxob/cool-kitten/blob/master/images/logo.png)](http://jalxob.com/cool-kitten/)
+# [![Cool Kitten](http://raw.github.com/jalxob/cool-kitten/master/images/logo.png)](http://jalxob.com/cool-kitten/)
 
 Parrallax Scrolling responsive frame work - 1.0
 
