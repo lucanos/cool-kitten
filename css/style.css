@@ -48,23 +48,23 @@ a:visited {
 	text-align: right;
 }
 
-.navigation{
+.navigation {
 	float: right;
 	list-style: none;
 	margin: 0;
 }
 
-.navigation li{
+.navigation li {
 	float: left;
 	padding: 0 0 0 50px;
 }
 
-.navigation li:hover{
+.navigation li:hover {
 	color: #a9d3d0;
 	cursor: pointer;
 }
 
-.navigation .active{
+.navigation .active {
 	color: #f68f67;
 	cursor: pointer;
 	font-weight: bold;
@@ -226,35 +226,35 @@ a:visited {
 	}
 
 	#slide1 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide1 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide2 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide2 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide3 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide3 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide4 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide4 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 }
@@ -294,35 +294,35 @@ a:visited {
 
 
 	#slide1 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide1 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide2 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide2 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide3 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide3 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide4 h1 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 	#slide4 h2 {
-		line-height: 1;
+		line-height: 1em;
 	}
 
 }
