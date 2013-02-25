@@ -1,7 +1,6 @@
 jQuery(document).ready(function ($) {
 
-
-    $(window).stellar();
+    $.stellar();
 
     var links = $('.navigation').find('li');
     slide = $('.slide');
@@ -9,17 +8,12 @@ jQuery(document).ready(function ($) {
     mywindow = $(window);
     htmlbody = $('html,body');
 
-
-    slide.waypoint(function (event, direction) {
+    slide.waypoint(function (direction) {
 
         dataslide = $(this).attr('data-slide');
 
-        if (direction === 'down') {
-            $('.navigation li[data-slide="' + dataslide + '"]').addClass('active').prev().removeClass('active');
-        }
-        else {
-            $('.navigation li[data-slide="' + dataslide + '"]').addClass('active').next().removeClass('active');
-        }
+        $('.navigation li[data-slide="' + dataslide + '"]').toggleClass('active');
+        $('.navigation li[data-slide="' + dataslide + '"]').prev().removeClass('active');
 
     });
  
@@ -36,8 +30,6 @@ jQuery(document).ready(function ($) {
         }, 2000, 'easeInOutQuint');
     }
 
-
-
     links.click(function (e) {
         e.preventDefault();
         dataslide = $(this).attr('data-slide');
@@ -50,6 +42,5 @@ jQuery(document).ready(function ($) {
         goToByScroll(dataslide);
 
     });
-
 
 });
