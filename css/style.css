@@ -31,6 +31,35 @@ p {
 	padding-bottom: 20px;
 }
 
+.button {
+	margin:20px 0;
+	padding: 15px 30px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f68f67;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+
+.button:link {
+	color: #ffffff;
+}
+
+.button:hover {
+	background-color: #df6c3f;
+	color: #ffffff;
+}
+
+.button:active {
+	background-color: #bde2df;
+	color: #ffffff;
+}
+
+.button:visited {
+	color: #ffffff;
+}
+
 /* Navigation */
 
 [role="banner"] {
@@ -88,13 +117,13 @@ p {
 	width: 100%;
 }
 
-/* Slide 1 */
+/* Home */
 
-#slide1 {
+#home {
 	background-color: #FFF;
 }
 
-#slide1 h1 {
+#home h1 {
 	color: #8a8683;
 	font-size: 3.8em;
 	font-weight: 700;
@@ -102,7 +131,7 @@ p {
 	line-height: 0;
 }
 
-#slide1 h2 {
+#home h2 {
 	color: #8a8683;
 	font-size: 2em;
 	font-weight: 400;
@@ -142,13 +171,13 @@ p {
 	font-size: 1.5em;
 }
 
-/* Slide 3 */
+/* Demo */
 
-#slide3 {
+#demo {
 	background-color: #FFF;
 }
 
-#slide3 h1 {
+#demo h1 {
 	color: #8a8683;
 	font-size: 3.8em;
 	font-weight: 700;
@@ -156,7 +185,7 @@ p {
 	line-height: 0;
 }
 
-#slide3 h2 {
+#demo h2 {
 	color: #8a8683;
 	font-size: 2em;
 	font-weight: 400;
@@ -172,22 +201,22 @@ p {
 	text-align: center;
 }
 
-/* Slide 4 */
+/* Credits */
 
-#slide4 {
+#credits {
 	background-color: #8a8683;
 	background-image: url('../images/sunglasses.png');
 	color: #FFF;
 }
 
-#slide4 h1 {
+#credits h1 {
 	color: #FFF;
 	font-size: 3.8em;
 	font-weight: 700;
 	letter-spacing: -3px;
 	line-height: 0;
 }
-#slide4 h2 {
+#credits h2 {
 	color: #FFF;
 	font-size: 2em;
 	font-weight: 400;
@@ -241,11 +270,11 @@ p {
 		width: 100%;
 	}
 
-	#slide1 h1 {
+	#home h1 {
 		line-height: 1em;
 	}
 
-	#slide1 h2 {
+	#home h2 {
 		line-height: 1em;
 	}
 
@@ -257,19 +286,19 @@ p {
 		line-height: 1em;
 	}
 
-	#slide3 h1 {
+	#demo h1 {
 		line-height: 1em;
 	}
 
-	#slide3 h2 {
+	#demo h2 {
 		line-height: 1em;
 	}
 
-	#slide4 h1 {
+	#credits h1 {
 		line-height: 1em;
 	}
 
-	#slide4 h2 {
+	#credits h2 {
 		line-height: 1em;
 	}
 
@@ -309,11 +338,11 @@ p {
 	}
 
 
-	#slide1 h1 {
+	#home h1 {
 		line-height: 1em;
 	}
 
-	#slide1 h2 {
+	#home h2 {
 		line-height: 1em;
 	}
 
@@ -325,19 +354,19 @@ p {
 		line-height: 1em;
 	}
 
-	#slide3 h1 {
+	#demo h1 {
 		line-height: 1em;
 	}
 
-	#slide3 h2 {
+	#demo h2 {
 		line-height: 1em;
 	}
 
-	#slide4 h1 {
+	#credits h1 {
 		line-height: 1em;
 	}
 
-	#slide4 h2 {
+	#credits h2 {
 		line-height: 1em;
 	}
 
