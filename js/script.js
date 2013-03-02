@@ -1,46 +1,29 @@
 jQuery(document).ready(function ($) {
 
+    $('body').scrollspy({target: '[role="banner"]'});
+
     $.stellar();
 
-    var links = $('.navigation').find('li');
-    slide = $('.slide');
-    button = $('.button');
-    mywindow = $(window);
-    htmlbody = $('html,body');
+    anchors = $('a[href^=#]');
 
-    slide.waypoint(function (direction) {
+    anchors.click(function(event) {
 
-        dataslide = $(this).attr('data-slide');
+        // get ID from href
+        id = $(this).attr('href');
 
-        $('.navigation li[data-slide="' + dataslide + '"]').toggleClass('active');
-        $('.navigation li[data-slide="' + dataslide + '"]').prev().removeClass('active');
-
-    });
- 
-    mywindow.scroll(function () {
-        if (mywindow.scrollTop() == 0) {
-            $('.navigation li[data-slide="1"]').addClass('active');
-            $('.navigation li[data-slide="2"]').removeClass('active');
+        if ( id === '#' ) {
+            // scroll to top
+            $('html, body').animate({
+                scrollTop: 0
+            });
+        } else {
+            // scroll to element
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            });
         }
-    });
 
-    function goToByScroll(dataslide) {
-        htmlbody.animate({
-            scrollTop: $('.slide[data-slide="' + dataslide + '"]').offset().top
-        });
-    }
-
-    links.click(function (e) {
-        e.preventDefault();
-        dataslide = $(this).attr('data-slide');
-        goToByScroll(dataslide);
-    });
-
-    button.click(function (e) {
-        e.preventDefault();
-        dataslide = $(this).attr('data-slide');
-        goToByScroll(dataslide);
-
+        event.preventDefault();
     });
 
 });
