@@ -27,6 +27,10 @@ a:visited {
 	text-decoration: none;
 }
 
+p {
+	padding-bottom: 20px;
+}
+
 /* Navigation */
 
 [role="banner"] {
@@ -106,15 +110,15 @@ a:visited {
 	padding-bottom: 20px;
 }
 
-/* Slide 2 */
+/* What is it? */
 
-#slide2 {
+#what-is-it {
 	background-color: #f68f67;
 	background-image: url('../images/footprints.png');
 	color: #FFF;
 }
 
-#slide2 h1 {
+#what-is-it h1 {
 	color: #FFF;
 	font-size: 3.8em;
 	font-weight: 700;
@@ -122,12 +126,20 @@ a:visited {
 	line-height: 0;
 }
 
-#slide2 h2 {
+#what-is-it h2 {
 	color: #FFF;
 	font-size: 2em;
 	font-weight: 400;
 	line-height: 0;
 	padding-bottom: 20px;
+}
+
+#what {
+	text-align: center;
+}
+
+#what span {
+	font-size: 1.5em;
 }
 
 /* Slide 3 */
@@ -237,11 +249,11 @@ a:visited {
 		line-height: 1em;
 	}
 
-	#slide2 h1 {
+	#what-is-it h1 {
 		line-height: 1em;
 	}
 
-	#slide2 h2 {
+	#what-is-it h2 {
 		line-height: 1em;
 	}
 
@@ -305,11 +317,11 @@ a:visited {
 		line-height: 1em;
 	}
 
-	#slide2 h1 {
+	#what-is-it h1 {
 		line-height: 1em;
 	}
 
-	#slide2 h2 {
+	#what-is-it h2 {
 		line-height: 1em;
 	}
 
