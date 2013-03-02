@@ -1,4 +1,4 @@
-# [Cool Kitten](http://jalxob.com/cool-kitten/)
+# [Cool Kitten](http://jalxob.com/cool-kitten)
 
 Parrallax scrolling responsive framework - 1.0
 
@@ -7,10 +7,10 @@ Release Date: February 2013.
 
 ## Resources
 
-* [normalize.css](http://necolas.github.com/normalize.css/)
-* [jQuery Easing Plugin](http://gsgd.co.uk/sandbox/jquery/easing/)
-* [jQuery Waypoints](http://imakewebthings.com/jquery-waypoints/)
-* [Stellar.js](http://markdalgleish.com/projects/stellar.js/)
+* [normalize.css](http://necolas.github.com/normalize.css)
+* [jQuery](http://jquery.com)
+* [Stellar.js](http://markdalgleish.com/projects/stellar.js)
+* [Bootstrap Scrollspy](http://twitter.github.com/bootstrap/javascript.html#scrollspy)
 
 ## Questions & Contact
 
