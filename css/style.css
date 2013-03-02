@@ -59,12 +59,16 @@ a:visited {
 	padding: 0 0 0 50px;
 }
 
-.navigation li:hover {
+.navigation a {
+	color: #8a8683;
+}
+
+.navigation a:hover {
 	color: #a9d3d0;
 	cursor: pointer;
 }
 
-.navigation .active {
+.navigation .active a {
 	color: #f68f67;
 	cursor: pointer;
 	font-weight: bold;
