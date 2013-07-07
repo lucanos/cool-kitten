@@ -44,7 +44,7 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 .s9{margin-left:75%}
 .s10{margin-left:83.33%}
 .s11{margin-left:91.66%}
-.end{float:right!important}
+.end{float:right}
 
 /* =Media query for 960 Screens - sets nested grids to 100%
 -------------------------------------------------------------- */
