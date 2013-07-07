@@ -34,7 +34,7 @@ p {
 .button {
 	margin:20px 0;
 	padding: 15px 30px;
-	color: #ffffff;
+	color: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f68f67;
 	border-radius: 25px;
@@ -43,21 +43,21 @@ p {
 }
 
 .button:link {
-	color: #ffffff;
+	color: #FFF;
 }
 
 .button:hover {
 	background-color: #df6c3f;
-	color: #ffffff;
+	color: #FFF;
 }
 
 .button:active {
 	background-color: #bde2df;
-	color: #ffffff;
+	color: #FFF;
 }
 
 .button:visited {
-	color: #ffffff;
+	color: #FFF;
 }
 
 /* Navigation */
@@ -193,12 +193,15 @@ p {
 	padding-bottom: 20px;
 }
 
-.test {
+.test , .test_orange {
 	background-color: #bde2df;
 	color: #FFF;
 	font-size: 2em;
 	font-weight: 400;
 	text-align: center;
+}
+.test_orange {
+	background-color: #F68F67;
 }
 
 /* Credits */
