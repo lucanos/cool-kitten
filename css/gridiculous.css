@@ -33,18 +33,31 @@ img{max-width:100%;height:auto;display:block;margin-left:auto;margin-right:auto}
 .c11{width:91.66%}
 .c12{width:100%}
 .c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{min-height:1px;float:left;padding-left:20px;padding-right:20px;position:relative}
-.s1{margin-left:8.33%}
-.s2{margin-left:16.66%}
-.s3{margin-left:25%}
-.s4{margin-left:33.33%}
-.s5{margin-left:41.66%}
-.s6{margin-left:50%}
-.s7{margin-left:58.33%}
-.s8{margin-left:66.66%}
-.s9{margin-left:75%}
-.s10{margin-left:83.33%}
-.s11{margin-left:91.66%}
+.s1{margin:0 0 0 8.33%}
+.s2{margin:0 0 0 16.66%}
+.s3{margin:0 0 0 25%}
+.s4{margin:0 0 0 33.33%}
+.s5{margin:0 0 0 41.66%}
+.s6{margin:0 0 0 50%}
+.s7{margin:0 0 0 58.33%}
+.s8{margin:0 0 0 66.66%}
+.s9{margin:0 0 0 75%}
+.s10{margin:0 0 0 83.33%}
+.s11{margin:0 0 0 91.66%}
 .end{float:right}
+
+.row_rtl > .c1,.row_rtl > .c2,.row_rtl > .c3,.row_rtl > .c4,.row_rtl > .c5,.row_rtl > .c6,.row_rtl > .c7,.row_rtl > .c8,.row_rtl > .c9,.row_rtl > .c10,.row_rtl > .c11,.row_rtl > .c12{float:right}
+.row_rtl > .s1{margin:0 8.33% 0 0}
+.row_rtl > .s2{margin:0 16.66% 0 0}
+.row_rtl > .s3{margin:0 25% 0 0}
+.row_rtl > .s4{margin:0 33.33% 0 0}
+.row_rtl > .s5{margin:0 41.66% 0 0}
+.row_rtl > .s6{margin:0 50% 0 0}
+.row_rtl > .s7{margin:0 58.33% 0 0}
+.row_rtl > .s8{margin:0 66.66% 0 0}
+.row_rtl > .s9{margin:0 75% 0 0}
+.row_rtl > .s10{margin:0 83.33% 0 0}
+.row_rtl > .s11{margin:0 91.66% 0 0}
 
 /* =Media query for 960 Screens - sets nested grids to 100%
 -------------------------------------------------------------- */
